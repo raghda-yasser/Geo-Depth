@@ -1,0 +1,6 @@
+{
+  "name": "GEO DEPTH — Earth Observation & SAR Platform",
+  "description": "Interactive Earth observation, Synthetic Aperture Radar (SAR) exploration, and planetary change detection platform for NASA Space Apps Challenge.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

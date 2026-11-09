@@ -1,0 +1,1272 @@
+# PROJECT MASTER PROMPT — GEO DEPTH
+
+## Explore. Detect. Understand.
+
+### Every Pixel Tells a Story. Discover How Our Planet Changes.
+
+## 1. PROJECT VISION
+
+Build a complete, production-quality, multi-page interactive web application called:
+
+**GEO DEPTH**
+
+Geo Depth is an interactive Earth observation and scientific discovery platform designed for NASA Space Apps Challenge.
+
+Its mission is to help people explore, visualize, and understand real changes happening across Earth's surface through satellite observations, with a special focus on Synthetic Aperture Radar (SAR).
+
+The platform combines two complementary experiences:
+
+**A professional scientific exploration platform**
+
+* Real satellite imagery.
+* Interactive geographic maps.
+* SAR observation visualization.
+* Before-and-after comparisons.
+* Environmental change exploration.
+* Scientific data and metadata.
+* Geospatial visualization.
+
+**An immersive storytelling experience**
+
+* Earth acts as a friendly, knowledgeable narrator and guide.
+* Users discover real environmental phenomena through stories.
+* Scientific concepts are explained through interactive experiences.
+* Users investigate satellite observations and solve environmental mysteries.
+* Learning feels like exploration rather than studying.
+
+The result must feel like a combination of NASA scientific visualization, a premium geospatial intelligence platform, and an interactive cinematic exploration experience.
+
+**IMPORTANT:** The application must prioritize scientific credibility and authentic visual content. A beautiful interface without real imagery, real geographic information, and meaningful interactions is not an acceptable result.
+
+---
+
+## 2. VISUAL IDENTITY — FOLLOW THIS DESIGN DIRECTION STRICTLY
+
+Create a premium, futuristic, cinematic scientific interface.
+
+The visual identity must resemble a professional Earth observation platform rather than a cartoon educational website.
+
+### Color palette
+
+Use a consistent design system:
+
+* Deep space navy: #050B18
+* Dark background: #080F20
+* Secondary surface: #101B30
+* Electric cyan: #39D5F2
+* Soft blue: #6C9EFF
+* Earth green: #61DDAA
+* White: #F5F8FF
+* Muted text: #A0AEC0
+
+Use cyan and blue accents carefully. Avoid excessive neon effects.
+
+### Typography
+
+Use modern, professional typography such as:
+
+* Inter
+* Space Grotesk
+
+Use:
+
+* Large cinematic headings.
+* Clear readable body text.
+* Small scientific metadata labels.
+* Monospace typography for coordinates, measurements, and technical information.
+
+### Visual elements
+
+Include:
+
+* Authentic Earth-from-space photography and satellite imagery.
+* High-quality geographical maps.
+* Real Sentinel-1 SAR imagery.
+* Scientific image comparison interfaces.
+* Subtle orbital animations.
+* Glass-like information panels.
+* Smooth transitions.
+* Elegant data cards.
+* Scientific charts and timelines.
+* Subtle glowing borders.
+
+### CRITICAL IMAGE REQUIREMENTS
+
+This is one of the most important requirements.
+
+Do NOT generate artificial representations of Earth when authentic imagery is available.
+
+Do NOT use:
+
+* Cartoon planets.
+* Generic AI-generated globes.
+* Unverified satellite-looking images.
+* Random space stock images as scientific evidence.
+* Fake SAR imagery.
+* Decorative images presented as real satellite observations.
+
+Use authentic imagery from reputable sources.
+
+Recommended sources:
+
+1. NASA Earth Observatory:
+   https://earthobservatory.nasa.gov/
+
+2. NASA Blue Marble:
+   https://visibleearth.nasa.gov/
+
+3. NASA Worldview:
+   https://worldview.earthdata.nasa.gov/
+
+4. NASA GIBS:
+   https://nasa-gibs.github.io/gibs-api-docs/
+
+5. Copernicus Browser:
+   https://browser.dataspace.copernicus.eu/
+
+6. Sentinel-1 data:
+   https://dataspace.copernicus.eu/
+
+7. Alaska Satellite Facility:
+   https://asf.alaska.edu/
+
+For the landing page, use an authentic Earth photograph or a real NASA Earth texture applied to a properly rendered 3D globe.
+
+If Three.js or React Three Fiber is used, apply real Earth textures rather than creating a fictional planet.
+
+The Earth must have:
+
+* Realistic continents.
+* Accurate geographical proportions.
+* Realistic oceans.
+* Natural lighting.
+* Atmospheric effects.
+* High-quality surface textures.
+
+If authentic 3D assets cannot be loaded, use a beautiful, genuine NASA Earth image instead of a fake 3D globe.
+
+Every scientific image must have correct source attribution.
+
+---
+
+## 3. THE EARTH CHARACTER — STORYTELLING IDENTITY
+
+Earth should be an intelligent and friendly narrator throughout the application.
+
+Earth is not a cartoon mascot and must not compromise the professional scientific visual identity.
+
+Use a conversational storytelling system through elegant dialogue panels.
+
+Personality:
+
+* Friendly.
+* Curious.
+* Intelligent.
+* Slightly humorous.
+* Knowledgeable.
+* Emotionally engaging.
+* Patient when explaining scientific concepts.
+
+Earth should guide visitors through their exploration.
+
+Examples:
+
+WELCOME:
+
+"Hey, explorer! Welcome to my world. There is much more happening beneath the surface than you might think."
+
+INTRODUCTION:
+
+"I've been changing for billions of years. Mountains rise, rivers move, forests grow, and cities expand. Satellites help us see these changes from a completely different perspective."
+
+SCIENTIFIC EXPLANATION:
+
+"Clouds can hide my surface from ordinary cameras. But radar works differently. Let me show you what my satellite friends can discover."
+
+DISCOVERY:
+
+"Wait a second! Look at these two observations. Something has changed here!"
+
+Use subtle visual reactions and dialogue variations.
+
+Earth's dialogue should appear in selected sections rather than occupying the entire screen.
+
+**Balance the storytelling with scientific professionalism.**
+
+---
+
+## 4. GLOBAL APPLICATION STRUCTURE
+
+Build a complete multi-page application with persistent navigation.
+
+Main navigation:
+
+1. Home
+2. Explore Earth
+3. SAR Explorer
+4. Data Lab
+5. Change Detection
+6. Earth Stories
+7. Mission Center
+8. About
+
+Include:
+
+* GEO DEPTH logo.
+* Responsive navigation.
+* Active page indicators.
+* Search access.
+* A consistent footer.
+* Breadcrumbs on internal pages when appropriate.
+* A contextual Earth guide.
+* A clear way to return to the main exploration interface.
+
+All navigation links must work.
+
+The interface must feel like one coherent scientific product.
+
+Avoid excessive navigation items, crowded dashboards, and unnecessary decorative elements.
+
+---
+
+## 5. PAGE ONE — HOME
+
+Create an immersive cinematic landing page.
+
+### Hero section
+
+Use a large, realistic Earth-from-space visual.
+
+The Earth image must be authentic and geographically accurate.
+
+Main heading:
+
+"OUR PLANET IS ALWAYS CHANGING."
+
+Supporting text:
+
+"Explore the invisible patterns, discover environmental changes, and understand Earth's story through satellite observations."
+
+Primary CTA:
+
+"EXPLORE EARTH"
+
+Secondary CTA:
+
+"HOW IT WORKS"
+
+Include a subtle orbital animation and an elegant dialogue panel.
+
+Earth's opening dialogue:
+
+"Hey, explorer! Welcome to my world.
+
+I've got a story to tell.
+
+Some changes are visible. Others are hidden beneath clouds, darkness, and subtle surface differences.
+
+Ready to discover what satellites can reveal?"
+
+### Introduction section
+
+Title:
+
+"SEE THE EARTH DIFFERENTLY"
+
+Explain how satellites observe environmental changes that cannot always be detected by the human eye.
+
+Introduce Synthetic Aperture Radar in simple language.
+
+### How it works
+
+Create three visual steps:
+
+01 — OBSERVE
+
+Satellites collect information about Earth's surface.
+
+02 — DETECT
+
+Compare observations from different dates to identify changes.
+
+03 — UNDERSTAND
+
+Explore the patterns and interpret what happened.
+
+### Featured discoveries
+
+Show visually rich discoveries for:
+
+* Flood monitoring.
+* Urban expansion.
+* Deforestation.
+* Land surface changes.
+
+Use authentic satellite imagery whenever possible.
+
+### Data sources
+
+Introduce NASA Earthdata, Sentinel-1, and relevant scientific data providers.
+
+### Final CTA
+
+"THE EARTH HAS A STORY. START EXPLORING."
+
+Button:
+
+"START YOUR MISSION"
+
+---
+
+## 6. PAGE TWO — EXPLORE EARTH
+
+Build an interactive geographic exploration interface.
+
+This is one of the most important sections.
+
+### Interactive map
+
+Implement a real geographic map using Leaflet or MapLibre.
+
+Use a reliable map tile provider with appropriate attribution.
+
+Features:
+
+* Zoom in and out.
+* Pan across the globe.
+* Search geographic locations.
+* Select locations.
+* Display latitude and longitude.
+* Show selected geographic coordinates.
+* Display markers for verified case studies.
+* Reset map position.
+
+### Search functionality
+
+Allow users to search by:
+
+* City.
+* Country.
+* Geographic coordinates.
+
+Use a real geocoding service such as Nominatim, respecting its usage policy.
+
+### Location information panel
+
+When a location is selected, display:
+
+* Location name.
+* Coordinates.
+* Available observations.
+* Available date ranges.
+* Related environmental stories.
+* Relevant satellite data availability.
+
+### Exploration controls
+
+Include:
+
+* Layer selector.
+* Date selector.
+* Location search.
+* Reset map.
+* Clear selection.
+
+Use actual available data layers.
+
+Do not pretend arbitrary locations have SAR imagery available.
+
+If data is unavailable, clearly explain this to the user.
+
+Earth's dialogue:
+
+"Choose a place on my surface. Let's see what satellites have discovered there."
+
+---
+
+## 7. PAGE THREE — SAR EXPLORER
+
+This is the CORE SCIENTIFIC EXPERIENCE of GEO DEPTH.
+
+It must be one of the most visually impressive and scientifically meaningful pages.
+
+### Introduction
+
+Title:
+
+"SEE BEYOND WHAT YOUR EYES CAN SEE."
+
+Explain:
+
+* What Synthetic Aperture Radar means.
+* How radar satellites work.
+* Why radar is useful.
+* How SAR differs from optical imagery.
+* Why SAR can operate at night.
+* How SAR can help observe the surface through cloud cover.
+
+Include a clear visual explanation of:
+
+1. Radar signal transmission.
+2. Interaction with Earth's surface.
+3. Backscatter.
+4. Signal reception.
+5. Image formation.
+
+Use scientific diagrams and interactive explanations.
+
+### SAR image viewer
+
+Create a real image exploration workspace.
+
+Display:
+
+* Authentic SAR imagery.
+* Image metadata.
+* Acquisition date.
+* Satellite name.
+* Polarization when available.
+* Product information.
+* Geographic coverage.
+* Data provider.
+* Original source link.
+
+### Before-and-after comparison
+
+Implement a fully functional comparison interface:
+
+* Before image.
+* After image.
+* Draggable comparison slider.
+* Side-by-side comparison mode.
+* Observation date labels.
+* Reset comparison.
+* Zoom and pan where supported.
+
+Users must be able to compare two actual observations.
+
+### Authentic SAR case study
+
+Prioritize one complete, verified case study rather than several incomplete examples.
+
+Choose a real environmental event with accessible Sentinel-1 observations.
+
+Flood monitoring is a suitable starting point.
+
+The case study must include:
+
+* Real geographic location.
+* Actual observation dates.
+* Sentinel-1 satellite identification.
+* Authentic SAR images or documented derived products.
+* Data source and product information.
+* Before-and-after comparison.
+* Explanation of observed changes.
+* Scientific limitations.
+
+Possible sources:
+
+* Copernicus Data Space.
+* Alaska Satellite Facility.
+* NASA Earthdata where relevant.
+
+Never invent acquisition dates, measurements, or satellite metadata.
+
+Clearly distinguish between actual SAR observations, processed products, and illustrative demonstrations.
+
+### SAR learning panel
+
+Explain:
+
+* VV and VH polarization.
+* Backscatter.
+* Speckle.
+* Radar brightness.
+* Water and urban surface responses.
+* Important limitations in SAR interpretation.
+
+Use simple analogies, interactive diagrams, and expandable explanations.
+
+Earth's dialogue:
+
+"Ordinary cameras depend on sunlight and clear skies. Radar sends its own signals. That gives us a different way to observe my surface."
+
+---
+
+## 8. PAGE FOUR — DATA LAB
+
+Build a professional geospatial data analytics workspace.
+
+The page should resemble a scientific research environment.
+
+### Dashboard overview
+
+Include:
+
+* Selected study area.
+* Number of observations.
+* Observation period.
+* Available datasets.
+* Selected satellite mission.
+
+Only display verified values.
+
+If using demonstration data, label it clearly.
+
+### Interactive visualizations
+
+Implement:
+
+1. Observation timeline.
+2. Available observations over time.
+3. Comparison of available measurements.
+4. Distribution of selected data categories.
+
+Use Recharts or another suitable charting library.
+
+### Filters
+
+Add:
+
+* Geographic area.
+* Date range.
+* Satellite mission.
+* Observation type.
+* Available data products.
+
+### Data explorer
+
+Create a structured table with:
+
+* Observation date.
+* Satellite.
+* Product type.
+* Location.
+* Dataset source.
+* Availability.
+
+Allow sorting, filtering, and viewing observation details.
+
+### Export
+
+Provide CSV export for available, verified tabular data.
+
+Never export invented measurements as real observations.
+
+Earth's dialogue:
+
+"Every observation is another piece of the puzzle. Let's see what the data can tell us."
+
+---
+
+## 9. PAGE FIVE — CHANGE DETECTION
+
+Title:
+
+"CHANGE IS HAPPENING. LET'S FIND IT."
+
+Create an interactive change detection workspace.
+
+### Main interface
+
+Include:
+
+* Selected study area.
+* Observation A.
+* Observation B.
+* Date comparison.
+* Image comparison.
+* Change visualization.
+* Results explanation.
+
+### Change visualization
+
+Provide:
+
+* Before image.
+* After image.
+* Difference or change layer when available.
+* Legend.
+* Adjustable opacity.
+* Zoom and pan.
+
+### Example scenarios
+
+Include educational case studies for:
+
+1. Flood extent monitoring.
+2. Urban expansion.
+3. Land surface changes.
+
+Each case study must explain:
+
+* Geographic location.
+* Observation dates.
+* Satellite source.
+* Methodology.
+* What changed.
+* What the observations can and cannot tell us.
+
+### Scientific integrity
+
+Clearly distinguish:
+
+* Actual processed change detection results.
+* Visual image comparisons.
+* Illustrative demonstrations.
+
+Do not label simple image differences as scientifically validated change detection.
+
+Explain potential limitations such as:
+
+* Soil moisture.
+* Vegetation.
+* Acquisition geometry.
+* Radar noise.
+* Seasonal changes.
+* Differences in observation conditions.
+
+Earth's dialogue:
+
+"Two images. Two moments in time. Let's investigate what happened between them."
+
+---
+
+## 10. PAGE SIX — EARTH STORIES
+
+Create an interactive scientific storytelling library.
+
+The objective is to make real satellite observations understandable and memorable.
+
+### Story library
+
+Include stories about:
+
+* Flood events.
+* Wildfires.
+* Urban growth.
+* Deforestation.
+* Changing lakes and coastlines.
+* Volcanic activity.
+* Environmental transformations.
+
+Each story must include:
+
+* Title.
+* Location.
+* Date.
+* Short introduction from Earth.
+* Authentic relevant imagery.
+* Timeline.
+* Satellite observations.
+* Scientific explanation.
+* Data source.
+* Original dataset links.
+
+### Story experience
+
+When a user opens a story, create a cinematic reading experience featuring:
+
+* Large satellite imagery.
+* Interactive timeline.
+* Before-and-after comparison where available.
+* Short narrative sections.
+* Important scientific findings.
+* Links to original datasets.
+
+Use Earth as the narrator.
+
+Do not invent environmental events or present fictional case studies as real.
+
+---
+
+## 11. PAGE SEVEN — MISSION CENTER
+
+Turn scientific learning into an interactive exploration experience.
+
+Title:
+
+"YOUR JOURNEY AS AN EARTH EXPLORER STARTS HERE."
+
+### Interactive missions
+
+MISSION 01 — UNDERSTAND SAR
+
+Ask users to identify what Synthetic Aperture Radar does.
+
+MISSION 02 — FIND THE CHANGE
+
+Present two authentic satellite images and ask users to identify visible changes.
+
+MISSION 03 — EXPLORE THE FLOOD
+
+Allow users to investigate a verified flood-monitoring case study.
+
+MISSION 04 — READ THE RADAR
+
+Ask users to interpret basic SAR image patterns.
+
+### Gamification
+
+Implement:
+
+* Score system.
+* Progress tracking.
+* Correct and incorrect answer feedback.
+* Achievement badges.
+* Mission completion screen.
+* Replay functionality.
+
+Possible badges:
+
+* First Discovery.
+* Radar Detective.
+* Change Hunter.
+* Earth Explorer.
+* Scientific Thinker.
+
+Store progress locally using localStorage.
+
+Do not require account creation for the main experience.
+
+Earth should guide users between missions.
+
+---
+
+## 12. PAGE EIGHT — ABOUT & DATA SOURCES
+
+Create a professional scientific information page.
+
+### About GEO DEPTH
+
+Explain:
+
+* Project vision.
+* Problem being addressed.
+* Target users.
+* Scientific motivation.
+* How the platform works.
+
+### Scientific methodology
+
+Explain the workflow:
+
+1. Satellite observation acquisition.
+2. Data selection.
+3. Preprocessing.
+4. Image comparison.
+5. Change interpretation.
+6. Visualization.
+
+Clearly identify which steps are implemented and which are planned.
+
+### Data sources
+
+Include official links:
+
+NASA Earthdata:
+https://www.earthdata.nasa.gov/
+
+NASA Worldview:
+https://worldview.earthdata.nasa.gov/
+
+NASA GIBS API:
+https://nasa-gibs.github.io/gibs-api-docs/
+
+NASA Earth Observatory:
+https://earthobservatory.nasa.gov/
+
+Copernicus Data Space:
+https://dataspace.copernicus.eu/
+
+Alaska Satellite Facility:
+https://asf.alaska.edu/
+
+Sentinel-1 mission:
+https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-1
+
+Clearly distinguish NASA services and datasets from ESA/Copernicus services and datasets.
+
+### Team section
+
+Create editable team member names, roles, and contributions.
+
+### AI disclosure
+
+Include a transparent section documenting how AI-assisted development and AI tools were used.
+
+---
+
+## 13. EARTH INTERACTION SYSTEM
+
+Earth must remain a recognizable part of the experience.
+
+Implement a reusable dialogue component that can appear throughout the website.
+
+Earth can:
+
+* Welcome users.
+* Introduce scientific concepts.
+* Explain discoveries.
+* Ask interactive questions.
+* React to user answers.
+* Recommend related experiences.
+* Explain scientific limitations.
+
+Example:
+
+"Interesting choice! But let's look a little closer. The radar image might reveal something you missed."
+
+Keep dialogue short, natural, and contextually relevant.
+
+Do not use excessive speech bubbles or cartoon illustrations.
+
+If an AI service is not configured, use a functional predefined conversation system.
+
+Never expose API keys in frontend code.
+
+Never present an unconfigured AI integration as functional.
+
+---
+
+## 14. ADDITIONAL INTERACTIVE FEATURES
+
+Add small features that enhance exploration.
+
+### SURPRISE ME
+
+Earth randomly selects a real, verified discovery or observation.
+
+### EARTH'S MOOD
+
+Display an interesting observation or environmental event with a short explanation.
+
+Do not claim that Earth has a scientifically measured emotional state.
+
+### EARTH'S POSTCARDS
+
+Short scientific stories from different geographic locations.
+
+### EARTH EXPLORER PASSPORT
+
+A simple achievement system where users collect badges after completing experiences.
+
+These features must remain secondary to the main scientific platform.
+
+---
+
+## 15. TECHNICAL ARCHITECTURE
+
+Use a modern maintainable technology stack.
+
+### Frontend
+
+* React.
+* TypeScript.
+* Vite.
+* Tailwind CSS.
+* shadcn/ui.
+* Lucide icons.
+* Framer Motion.
+
+### 3D visualization
+
+* Three.js.
+* React Three Fiber when appropriate.
+
+Use authentic Earth textures and optimized assets.
+
+Provide a lightweight fallback if 3D rendering is unavailable.
+
+### Mapping
+
+* Leaflet or MapLibre GL.
+* OpenStreetMap-compatible basemaps.
+* Geospatial overlays when available.
+
+### Data visualization
+
+* Recharts.
+* Interactive timelines.
+* Image comparison components.
+
+### Backend
+
+Use Supabase only when necessary for:
+
+* User accounts.
+* Saved explorations.
+* Persistent user progress.
+* Shared study cases.
+
+The initial application must work without mandatory authentication.
+
+### Hosting
+
+Prepare for:
+
+* GitHub.
+* Vercel.
+* Cloudflare Pages.
+
+### Architecture requirements
+
+Use:
+
+* Reusable components.
+* Modular page structure.
+* Organized data services.
+* Separate API integration layers.
+* Centralized configuration.
+* Type-safe data models.
+* Error handling.
+* Loading states.
+* Empty states.
+* Responsive layouts.
+
+Do not put the entire application in one enormous component.
+
+---
+
+## 16. SCIENTIFIC DATA INTEGRATION
+
+This section is mandatory.
+
+Prioritize genuine scientific data over decorative visual content.
+
+### Data providers
+
+Use relevant services and datasets from:
+
+* NASA Earthdata.
+* NASA GIBS.
+* ASF DAAC.
+* ASF HyP3.
+* Copernicus Data Space.
+* Sentinel-1.
+
+### Integration architecture
+
+Separate the application into:
+
+1. Data discovery.
+2. Data retrieval.
+3. Data processing.
+4. Visualization.
+5. Interpretation.
+
+Build a reusable data-provider layer.
+
+### Important requirements
+
+* Do not fabricate API responses.
+* Do not display fictional measurements as real.
+* Do not invent image acquisition dates.
+* Do not misattribute ESA datasets to NASA.
+* Attribute every dataset correctly.
+* Include original source links.
+* Handle missing API credentials gracefully.
+* Do not expose secret API keys in frontend code.
+* Clearly identify demonstration data.
+
+If live SAR processing is not yet connected, use documented, properly attributed sample products and explain that they are demonstrations.
+
+Do not pretend that a demonstration is a live data integration.
+
+### Data reliability
+
+For every observation, preserve available metadata such as:
+
+* Dataset identifier.
+* Satellite mission.
+* Acquisition date.
+* Product type.
+* Geographic coverage.
+* Polarization.
+* Processing level.
+* Original provider.
+
+Only display metadata actually supplied by the source.
+
+---
+
+## 17. INTERACTION AND USER EXPERIENCE
+
+Every interactive element must work.
+
+Implement:
+
+* Navigation.
+* Search.
+* Filters.
+* Dropdown menus.
+* Date selectors.
+* Interactive maps.
+* Image comparison.
+* Charts.
+* Modals.
+* Tooltips.
+* Expandable explanations.
+* CSV export.
+* Mission quizzes.
+* Progress indicators.
+* Responsive mobile navigation.
+
+Provide clear feedback for important actions.
+
+Do not create decorative buttons that do nothing.
+
+Do not leave empty pages.
+
+Do not create fake controls.
+
+---
+
+## 18. ACCESSIBILITY AND RESPONSIVENESS
+
+Support:
+
+* Desktop.
+* Laptop.
+* Tablet.
+* Mobile.
+
+Ensure:
+
+* Readable font sizes.
+* Sufficient color contrast.
+* Keyboard-accessible navigation.
+* Clear interactive states.
+* Accessible labels.
+* Alternative text for meaningful images.
+* Reduced-motion support.
+* Text alternatives for important visual information.
+
+Mobile usability is a high priority.
+
+---
+
+## 19. PERFORMANCE
+
+Optimize the application for ordinary laptops and mobile devices.
+
+* Lazy-load large imagery.
+* Optimize image sizes.
+* Avoid unnecessary animations.
+* Avoid duplicate API requests.
+* Use reusable components.
+* Provide loading indicators.
+* Handle network failures.
+* Keep maps and charts responsive.
+* Use efficient rendering for large visualizations.
+
+---
+
+## 20. DEVELOPMENT ROADMAP
+
+IMPORTANT: BUILD THE COMPLETE APPLICATION INCREMENTALLY.
+
+Do not stop after generating a landing page.
+
+Do not create eight pages containing only placeholders.
+
+Follow this sequence:
+
+### PHASE 1 — FOUNDATION
+
+* Create the complete project architecture.
+* Configure routing.
+* Establish the design system.
+* Implement global navigation.
+* Build the cinematic landing page.
+* Integrate authentic Earth imagery.
+* Implement the Earth dialogue system.
+
+### PHASE 2 — COMPLETE APPLICATION STRUCTURE
+
+Build all eight pages.
+
+Ensure navigation and the overall visual identity are consistent.
+
+### PHASE 3 — CORE SCIENTIFIC EXPERIENCE
+
+Prioritize:
+
+* Interactive geographic map.
+* Authentic SAR imagery.
+* SAR metadata.
+* Before-and-after comparison.
+* Scientific explanations.
+
+### PHASE 4 — DATA AND VISUALIZATION
+
+Implement:
+
+* Data Lab.
+* Observation timelines.
+* Charts.
+* Filters.
+* Change visualization.
+* CSV export.
+
+### PHASE 5 — STORYTELLING AND LEARNING
+
+Implement:
+
+* Earth Stories.
+* Mission Center.
+* Interactive quizzes.
+* Earth dialogue.
+* Achievements.
+
+### PHASE 6 — DATA INTEGRATION
+
+Connect available real datasets and documented sample data.
+
+Clearly identify all unavailable integrations.
+
+### PHASE 7 — TESTING AND POLISH
+
+Test:
+
+* Every page.
+* Every navigation link.
+* Every button.
+* Every filter.
+* Every form.
+* Image comparison.
+* Map interactions.
+* Mobile layouts.
+* Error handling.
+* External data availability.
+
+### PHASE 8 — DEPLOYMENT
+
+Prepare the project for GitHub and public deployment.
+
+Provide clear deployment instructions.
+
+After each phase:
+
+* Explain what was implemented.
+* Identify incomplete functionality.
+* Check for errors.
+* Preserve existing working components.
+* Avoid unnecessarily rewriting completed pages.
+
+Do not remove existing functionality when adding new features.
+
+If a feature requires credentials, explain the requirement and provide a working alternative.
+
+---
+
+## 21. ZERO-BUDGET REQUIREMENT
+
+The entire project must be buildable without mandatory paid subscriptions.
+
+Do not depend on:
+
+* Paid AI APIs.
+* Premium templates.
+* Paid 3D assets.
+* Paid hosting.
+* Paid stock images.
+* Subscription-based essential features.
+
+Prefer open-source technologies and publicly accessible scientific data.
+
+Respect API usage limits and attribution requirements.
+
+Provide working fallbacks when external services are unavailable.
+
+---
+
+## 22. FINAL QUALITY STANDARD
+
+The finished GEO DEPTH application must feel like a real scientific exploration platform.
+
+It must be:
+
+* Visually impressive.
+* Scientifically responsible.
+* Data-driven.
+* Interactive.
+* Educational.
+* Easy to navigate.
+* Responsive.
+* Professionally designed.
+* Ready for a live demonstration.
+
+The most important experience is allowing users to:
+
+1. Discover Earth.
+2. Explore a real geographic location.
+3. Access authentic satellite observations.
+4. Compare images from different dates.
+5. Understand how SAR works.
+6. Investigate environmental changes.
+7. Learn how satellite technology helps scientists observe our planet.
+
+The visual experience must be beautiful, but scientific authenticity must always come first.
+
+---
+
+# 23. STRICT EXECUTION INSTRUCTIONS — READ BEFORE BUILDING
+
+You are building an actual application, not writing a concept proposal.
+
+Follow these rules:
+
+**RULE 1 — AUTHENTIC VISUALS**
+
+Use real Earth imagery and genuine satellite imagery. Never substitute generated planet illustrations for authentic Earth visuals.
+
+**RULE 2 — REAL DATA**
+
+Connect actual publicly accessible data sources wherever feasible. Do not fill the interface with invented statistics, fake satellite observations, or fictional metadata.
+
+**RULE 3 — COMPLETE APPLICATION**
+
+Implement the actual eight-page application. Do not stop at a homepage or a static visual mockup.
+
+**RULE 4 — FUNCTIONALITY**
+
+Every visible button, menu, filter, interaction, and navigation action must work.
+
+**RULE 5 — SCIENTIFIC INTEGRITY**
+
+Clearly label real observations, processed products, and demonstration data.
+
+**RULE 6 — DESIGN CONSISTENCY**
+
+Follow the professional scientific visual identity throughout the application. Keep Earth storytelling as an integrated feature, not a replacement for the scientific platform.
+
+**RULE 7 — ZERO BUDGET**
+
+Do not introduce mandatory paid services or subscriptions.
+
+**RULE 8 — PRESERVE PROGRESS**
+
+Work incrementally. Do not unnecessarily replace working code or remove existing features.
+
+**RULE 9 — ENGLISH ONLY**
+
+Every element of the application must be in English. No Arabic text, translations, language switchers, or RTL layouts.
+
+**RULE 10 — TEST BEFORE COMPLETION**
+
+Run the application, inspect the actual rendered pages, test the interactions, and fix errors before declaring completion.
+
+If the environment supports file editing and terminal commands, use them to build and test the actual project rather than merely returning code snippets or a design description.
+
+If the project is too large to complete in one generation, finish the current phase properly, preserve the code, and continue with the next phase.
+
+**FINAL BRAND IDENTITY**
+
+GEO DEPTH
+
+EXPLORE. DETECT. UNDERSTAND.
+
+"Every pixel tells a story. Discover how our planet changes."
+
+**Start building GEO DEPTH now.**
